@@ -1,0 +1,47 @@
+{
+    "name": "local-wordpress-theme-build",
+    "version": "1.0.0",
+    "description": "Default wordpress theme build config with gulp, gulp-sass, gulp-sourcemap, gulp-autoprefixer, gulp-rename, gulp-csso, gulp-connect-php, browser-sync and xampp.",
+    "main": "app.js",
+    "scripts": {
+        "test": "Complete!"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cold2425/local-wordpress-theme-build.git"
+    },
+    "keywords": [
+        "wordpress",
+        "theme",
+        "default",
+        "config",
+        "gulp",
+        "gulp-sass",
+        "gulp-sourcemap",
+        "gulp-autoprefixer",
+        "gulp-rename",
+        "gulp-csso",
+        "gulp-connect-php",
+        "browser-sync",
+        "xampp"
+    ],
+    "author": "Paweł Warachowski",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cold2425/local-wordpress-theme-build/issues"
+    },
+    "homepage": "https://github.com/cold2425/local-wordpress-theme-build#readme",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^8.0.0",
+        "gulp-connect-php": "^1.0.3",
+        "gulp-csso": "^4.0.1",
+        "gulp-rename": "^2.0.0",
+        "gulp-sass": "^5.1.0",
+        "gulp-sourcemaps": "^3.0.0",
+        "sass": "^1.49.9"
+    },
+    "dependencies": {
+        "browser-sync": "^2.27.9"
+    }
+}
