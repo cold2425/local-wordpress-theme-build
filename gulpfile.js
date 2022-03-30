@@ -9,7 +9,6 @@ const sourcemaps = require("gulp-sourcemaps");
 const autoprefixer = require("gulp-autoprefixer");
 const rename = require("gulp-rename");
 const csso = require("gulp-csso");
-const connect = require("gulp-connect-php");
 const browserSync = require("browser-sync");
 
 const server = function(cb) {
